@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><title>BEAM Validator Haritası</title>
+<!DOCTYPE html><html><head><title>Coqnet Validator Haritası</title>
 <link rel='stylesheet' href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css' />
 <script src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'></script>
 <style>#map { height: 600px; } .info { margin: 20px; } .filter { margin: 10px; } .leaflet-popup-content { max-height: 200px; overflow-y: auto; }</style>
@@ -37,57 +37,74 @@ var marker = L.marker([47.3667, 8.5500], {icon: greenIcon}).addTo(map).bindPopup
 marker.uptime = 100; markers.push(marker);
 var marker = L.marker([50.1155, 8.6842], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Frankfurt am Main (1 validators), DE<br>NodeID-EoT4snrm97ibRLAvMYpL8B7Dnt7RmXU76 (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
-var marker = L.marker([52.2298, 21.0118], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Warsaw (1 validators), PL<br>NodeID-5hDYKGdaLBG8uvfK4YHsngU72bh84UUGe (Port: 9651, Uptime: 58.958378%)<br><em>Total 1 validators</em>');
-marker.uptime = 58.958378; markers.push(marker);
-var marker = L.marker([52.2298, 21.0118], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Warsaw (1 validators), PL<br>NodeID-9hBpmvjpfd114nKocaPkZBN7GVDGrTnkz (Port: 9651, Uptime: 18.754128%)<br><em>Total 1 validators</em>');
-marker.uptime = 18.754128; markers.push(marker);
+var marker = L.marker([52.2298, 21.0118], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Warsaw (1 validators), PL<br>NodeID-5hDYKGdaLBG8uvfK4YHsngU72bh84UUGe (Port: 9651, Uptime: 45.143726%)<br><em>Total 1 validators</em>');
+marker.uptime = 45.143726; markers.push(marker);
+var marker = L.marker([52.2298, 21.0118], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Warsaw (1 validators), PL<br>NodeID-9hBpmvjpfd114nKocaPkZBN7GVDGrTnkz (Port: 9651, Uptime: 20.844025%)<br><em>Total 1 validators</em>');
+marker.uptime = 20.844025; markers.push(marker);
 var marker = L.marker([50.9519, 1.8563], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Calais (1 validators), FR<br>NodeID-NK1Aufs2nRnvckVD6Ea5UjUUwcu5o3R3Y (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
-var marker = L.marker([50.1155, 8.6842], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Frankfurt am Main (1 validators), DE<br>NodeID-3TWEGuLyjvyKYLQqXNvQ7GQqSNoSQrviN (Port: 9651, Uptime: 82.23964%)<br><em>Total 1 validators</em>');
-marker.uptime = 82.23964; markers.push(marker);
+var marker = L.marker([50.1155, 8.6842], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Frankfurt am Main (1 validators), DE<br>NodeID-3TWEGuLyjvyKYLQqXNvQ7GQqSNoSQrviN (Port: 9651, Uptime: 78.50949%)<br><em>Total 1 validators</em>');
+marker.uptime = 78.50949; markers.push(marker);
+var marker = L.marker([50.9519, 1.8563], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Calais (1 validators), FR<br>NodeID-MjG2up5pPjjrVzxcwQnwdA2QPeEJGoex2 (Port: 9651, Uptime: 99.98698%)<br><em>Total 1 validators</em>');
+marker.uptime = 99.98698; markers.push(marker);
 var marker = L.marker([50.9519, 1.8563], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Calais (1 validators), FR<br>NodeID-MyiwKPL6dFe1extjop674DkS9vquNhrek (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
-var marker = L.marker([60.1695, 24.9354], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Helsinki (1 validators), FI<br>NodeID-Ap4EMywSHH1wAdxhtyAa2v1GvvD8BezUT (Port: 9651, Uptime: 59.094513%)<br><em>Total 1 validators</em>');
-marker.uptime = 59.094513; markers.push(marker);
-var marker = L.marker([51.2217, 6.7762], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Düsseldorf (1 validators), DE<br>NodeID-62XYpHtuv92hHhJJXVd4wxJqPFv9rbWA8 (Port: 9651, Uptime: 84.2394%)<br><em>Total 1 validators</em>');
-marker.uptime = 84.2394; markers.push(marker);
+var marker = L.marker([50.1155, 8.6842], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Frankfurt am Main (1 validators), DE<br>NodeID-E9XYvz6eWNjjZkXAous4MPUbpEVk7LG1u (Port: 9651, Uptime: 21.54139%)<br><em>Total 1 validators</em>');
+marker.uptime = 21.54139; markers.push(marker);
+var marker = L.marker([41.0138, 28.9497], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Istanbul (1 validators), TR<br>NodeID-N4r8sLfeDVa2c9eDFpE4wuxJccUku3LKu (Port: 9653, Uptime: 65.96644%)<br><em>Total 1 validators</em>');
+marker.uptime = 65.96644; markers.push(marker);
+var marker = L.marker([60.1695, 24.9354], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Helsinki (1 validators), FI<br>NodeID-Ap4EMywSHH1wAdxhtyAa2v1GvvD8BezUT (Port: 9651, Uptime: 44.93056%)<br><em>Total 1 validators</em>');
+marker.uptime = 44.93056; markers.push(marker);
+var marker = L.marker([48.5839, 7.7455], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Strasbourg (1 validators), FR<br>NodeID-D9vK4wiK9bzqWtHHbeswXyhAaJkiYt5qv (Port: 9651, Uptime: 99.9441%)<br><em>Total 1 validators</em>');
+marker.uptime = 99.9441; markers.push(marker);
+var marker = L.marker([51.2217, 6.7762], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Düsseldorf (1 validators), DE<br>NodeID-62XYpHtuv92hHhJJXVd4wxJqPFv9rbWA8 (Port: 9651, Uptime: 90.18921%)<br><em>Total 1 validators</em>');
+marker.uptime = 90.18921; markers.push(marker);
 var marker = L.marker([50.1155, 8.6842], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Frankfurt am Main (1 validators), DE<br>NodeID-MypfujckyXg6yjunXBtYGeLV9WQir5tVn (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
-var marker = L.marker([55.7522, 37.6156], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Moscow (1 validators), RU<br>NodeID-66BJYYsZQLe6R5xzGyaX2bMR4CGU1uw12 (Port: 9651, Uptime: 20.36591%)<br><em>Total 1 validators</em>');marker.uptime = 20.36591; markers.push(marker);
-var marker = L.marker([50.1155, 8.6842], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Frankfurt am Main (1 validators), DE<br>NodeID-AoHA1mCfWLoMzmv99FyGK66ACURsLqpHs (Port: 9651, Uptime: 18.745115%)<br><em>Total 1 validators</em>');
-marker.uptime = 18.745115; markers.push(marker);
+var marker = L.marker([55.7522, 37.6156], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Moscow (1 validators), RU<br>NodeID-66BJYYsZQLe6R5xzGyaX2bMR4CGU1uw12 (Port: 9651, Uptime: 20.397938%)<br><em>Total 1 validators</em>');
+marker.uptime = 20.397938; markers.push(marker);
+var marker = L.marker([50.1155, 8.6842], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Frankfurt am Main (1 validators), DE<br>NodeID-AoHA1mCfWLoMzmv99FyGK66ACURsLqpHs (Port: 9651, Uptime: 19.175838%)<br><em>Total 1 validators</em>');
+marker.uptime = 19.175838; markers.push(marker);
 var marker = L.marker([47.3667, 8.5500], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Zürich (1 validators), CH<br>NodeID-BfUM3Vt5jASmTbbcNMv9GpGYAATQLc78S (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
 var marker = L.marker([50.9519, 1.8563], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Calais (1 validators), FR<br>NodeID-Nm7kfBtMafpGKmgH9HMeBSnVr1djJ2Ae6 (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
-var marker = L.marker([49.4075, 11.1649], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Nürnberg (1 validators), DE<br>NodeID-wVGasT9PpXBw7kHJMHaENK7u75Ptqzmc (Port: 9651, Uptime: 67.93083%)<br><em>Total 1 validators</em>');
-marker.uptime = 67.93083; markers.push(marker);
+var marker = L.marker([49.4075, 11.1649], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Nürnberg (1 validators), DE<br>NodeID-wVGasT9PpXBw7kHJMHaENK7u75Ptqzmc (Port: 9651, Uptime: 53.30518%)<br><em>Total 1 validators</em>');
+marker.uptime = 53.30518; markers.push(marker);
 var marker = L.marker([47.3667, 8.5500], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Zürich (1 validators), CH<br>NodeID-34LgrtVF4L5Vgexanj5BGaiYR5fkM8mxJ (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
 var marker = L.marker([46.2530, 20.1482], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Szeged (1 validators), HU<br>NodeID-EPn2bCd6xg2a8kB7wiG9dSyBEZnqgWixD (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
+var marker = L.marker([49.4075, 11.1649], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Nürnberg (1 validators), DE<br>NodeID-JyGPWAMsvf4ffNPReqEA8HrTPUUTrqde8 (Port: 9651, Uptime: 23.342442%)<br><em>Total 1 validators</em>');
+marker.uptime = 23.342442; markers.push(marker);
+var marker = L.marker([48.5839, 7.7455], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Strasbourg (1 validators), FR<br>NodeID-FfSmPuhWihTp2GXswKFQGcVcetqh5Qm5E (Port: 9651, Uptime: 99.99157%)<br><em>Total 1 validators</em>');
+marker.uptime = 99.99157; markers.push(marker);
 var marker = L.marker([51.5085, -0.1257], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>London (1 validators), GB<br>NodeID-BvVftbjLUjM7vtEMhD2juMHm6dd8qQzPf (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
+var marker = L.marker([52.0200, 5.0431], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>IJsselstein (1 validators), NL<br>NodeID-8F8nocWDKxx21YovRQ15P2pFnwWReEmbd (Port: 9651, Uptime: 20.143602%)<br><em>Total 1 validators</em>');
+marker.uptime = 20.143602; markers.push(marker);
 var marker = L.marker([50.1155, 8.6842], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Frankfurt am Main (1 validators), DE<br>NodeID-9Y8hBj9N6CHVmBiP4HP7MW5mYs1SvEQxn (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
+var marker = L.marker([47.4984, 19.0404], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Budapest (1 validators), HU<br>NodeID-Bn1Fgq7DKhdWUEN5UAca7bXEjgxDMEss4 (Port: 9651, Uptime: 12.5355%)<br><em>Total 1 validators</em>');
+marker.uptime = 12.5355; markers.push(marker);
 var marker = L.marker([37.3924, -121.9623], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Santa Clara (1 validators), US<br>NodeID-Afo46q9iHFYwiJ9Y8EWgrxHrWKtpZnB1q (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
-var marker = L.marker([40.7143, -74.0060], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>New York City (1 validators), US<br>NodeID-CBQ4je5bkntroU5NNiNPkw1dFKh3Fp8EH (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
-marker.uptime = 100; markers.push(marker);
+var marker = L.marker([40.7143, -74.0060], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>New York City (1 validators), US<br>NodeID-CBQ4je5bkntroU5NNiNPkw1dFKh3Fp8EH (Port: 9651, Uptime: 94.1388%)<br><em>Total 1 validators</em>');
+marker.uptime = 94.1388; markers.push(marker);
+var marker = L.marker([48.5839, 7.7455], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Strasbourg (1 validators), FR<br>NodeID-KqL9tce3ZyCYM6vE6ctVQYC9kyeJ7JzwJ (Port: 9651, Uptime: 99.99161%)<br><em>Total 1 validators</em>');
+marker.uptime = 99.99161; markers.push(marker);
 var marker = L.marker([50.9519, 1.8563], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Calais (1 validators), FR<br>NodeID-MY7rGCc9BeVoF5Yj4YHWAtR916i7Tt9do (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
 var marker = L.marker([48.8534, 2.3488], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Paris (1 validators), FR<br>NodeID-DSwQ2Z4MJQtwAeJPoda5ayj8e2BUb158Q (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
-var marker = L.marker([49.4075, 11.1649], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Nürnberg (1 validators), DE<br>NodeID-7FVi64gRPPGiYYdF6RnEXWq9Z4skf2VvB (Port: 9651, Uptime: 65.726036%)<br><em>Total 1 validators</em>');
-marker.uptime = 65.726036; markers.push(marker);
-var marker = L.marker([48.8534, 2.3488], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Paris (1 validators), FR<br>NodeID-ECocEkcRz1c4uiq3Mb6jD2nUq8YxaPpY3 (Port: 9651, Uptime: 99.9911%)<br><em>Total 1 validators</em>');
-marker.uptime = 99.9911; markers.push(marker);
-var marker = L.marker([50.1155, 8.6842], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Frankfurt am Main (1 validators), DE<br>NodeID-HRVo14RVZhJtMKA6cteb7KxCDzaoL5jwf (Port: 9651, Uptime: 88.420944%)<br><em>Total 1 validators</em>');
-marker.uptime = 88.420944; markers.push(marker);
+var marker = L.marker([49.4075, 11.1649], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Nürnberg (1 validators), DE<br>NodeID-7FVi64gRPPGiYYdF6RnEXWq9Z4skf2VvB (Port: 9651, Uptime: 50.98987%)<br><em>Total 1 validators</em>');
+marker.uptime = 50.98987; markers.push(marker);
+var marker = L.marker([48.8534, 2.3488], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Paris (1 validators), FR<br>NodeID-ECocEkcRz1c4uiq3Mb6jD2nUq8YxaPpY3 (Port: 9651, Uptime: 99.99126%)<br><em>Total 1 validators</em>');marker.uptime = 99.99126; markers.push(marker);
+var marker = L.marker([50.1155, 8.6842], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Frankfurt am Main (1 validators), DE<br>NodeID-HRVo14RVZhJtMKA6cteb7KxCDzaoL5jwf (Port: 9651, Uptime: 75.547035%)<br><em>Total 1 validators</em>');
+marker.uptime = 75.547035; markers.push(marker);
 var marker = L.marker([50.7990, -1.0913], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Portsmouth (1 validators), GB<br>NodeID-GvYGeH3hZrX751Ppzzaee5YiqM1EcJhxT (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
-var marker = L.marker([47.3667, 8.5500], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Zürich (1 validators), CH<br>NodeID-4QxjUmE9AEiTE9ypgPAeXbkN1TGWMQRvW (Port: 9651, Uptime: 99.99033%)<br><em>Total 1 validators</em>');
-marker.uptime = 99.99033; markers.push(marker);
+var marker = L.marker([47.3667, 8.5500], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Zürich (1 validators), CH<br>NodeID-4QxjUmE9AEiTE9ypgPAeXbkN1TGWMQRvW (Port: 9651, Uptime: 99.9964%)<br><em>Total 1 validators</em>');marker.uptime = 99.9964; markers.push(marker);
 var marker = L.marker([51.2217, 6.7762], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Düsseldorf (1 validators), DE<br>NodeID-C5s5umP4zbLr7X2aTMFhrWFvz1icrfcd1 (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');marker.uptime = 100; markers.push(marker);
 var marker = L.marker([50.1155, 8.6842], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Frankfurt am Main (1 validators), DE<br>NodeID-CNWoW8ZJGVwM4Zjm8qQ8tV4sW2XQqZP1Z (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
@@ -97,24 +114,37 @@ var marker = L.marker([49.0111, 8.3601], {icon: greenIcon}).addTo(map).bindPopup
 marker.uptime = 100; markers.push(marker);
 var marker = L.marker([50.1155, 8.6842], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Frankfurt am Main (1 validators), DE<br>NodeID-2MnkwXdH7p5zwxydbHBM12SN2E5S8s2uG (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
+var marker = L.marker([48.5839, 7.7455], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Strasbourg (1 validators), FR<br>NodeID-2VfDFHbojaowrgxnCfiuE6BStmjWqz4zh (Port: 9651, Uptime: 99.97433%)<br><em>Total 1 validators</em>');
+marker.uptime = 99.97433; markers.push(marker);
+var marker = L.marker([50.9519, 1.8563], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Calais (1 validators), FR<br>NodeID-8g2aT4UsuX8nGpsh4h3b4UMHVNMe26rxj (Port: 9651, Uptime: 99.986885%)<br><em>Total 1 validators</em>');
+marker.uptime = 99.986885; markers.push(marker);
 var marker = L.marker([50.9519, 1.8563], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Calais (1 validators), FR<br>NodeID-DsWqnjKNsn43hR52c9GwemEXTp7x3ugRf (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
+var marker = L.marker([50.1155, 8.6842], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Frankfurt am Main (1 validators), DE<br>NodeID-MABpjU6P4i7KnxwjZc2TzLsb8WXf2UejB (Port: 9651, Uptime: 23.017984%)<br><em>Total 1 validators</em>');
+marker.uptime = 23.017984; markers.push(marker);
 var marker = L.marker([50.9519, 1.8563], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Calais (1 validators), FR<br>NodeID-AqNm8A8Yy2Sntf43G8sJUSqJ8WzVWEjsd (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
-var marker = L.marker([38.6273, -90.1979], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>St. Louis (1 validators), US<br>NodeID-NRC4B3cvEaGUdafmtiL7cW1VG7JUWM6Dk (Port: 9651, Uptime: 99.81893%)<br><em>Total 1 validators</em>');
-marker.uptime = 99.81893; markers.push(marker);
-var marker = L.marker([45.5088, -73.5878], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Montréal (1 validators), CA<br>NodeID-MmEtkRArUXKzrvY9YjP8JW7tB8YFtKz1 (Port: 9651, Uptime: 49.61073%)<br><em>Total 1 validators</em>');
-marker.uptime = 49.61073; markers.push(marker);
+var marker = L.marker([38.6273, -90.1979], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>St. Louis (1 validators), US<br>NodeID-NRC4B3cvEaGUdafmtiL7cW1VG7JUWM6Dk (Port: 9651, Uptime: 99.87657%)<br><em>Total 1 validators</em>');
+marker.uptime = 99.87657; markers.push(marker);
+var marker = L.marker([40.7143, -74.0060], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>New York City (1 validators), US<br>NodeID-5ndVXwoV2bw17CCc9kH9v8oVRM2pVmtrp (Port: 9651, Uptime: 41.312702%)<br><em>Total 1 validators</em>');
+marker.uptime = 41.312702; markers.push(marker);
+var marker = L.marker([45.5088, -73.5878], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Montréal (1 validators), CA<br>NodeID-MmEtkRArUXKzrvY9YjP8JW7tB8YFtKz1 (Port: 9651, Uptime: 48.61327%)<br><em>Total 1 validators</em>');
+marker.uptime = 48.61327; markers.push(marker);
 var marker = L.marker([50.1155, 8.6842], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Frankfurt am Main (1 validators), DE<br>NodeID-3jzPVdByMgEP5ZfT9ggm2UrNg7sfKTFZV (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
-var marker = L.marker([48.8534, 2.3488], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Paris (1 validators), FR<br>NodeID-5XHJ7DsZCCjMic4W98PUjZTwyDZ9i9U5j (Port: 9651, Uptime: 99.91301%)<br><em>Total 1 validators</em>');marker.uptime = 99.91301; markers.push(marker);
-var marker = L.marker([40.6436, 22.9309], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Thessaloníki (1 validators), GR<br>NodeID-4SQdCBcg5Qp2Y5GqG1FDVPpwVsFEVm8Ux (Port: 9651, Uptime: 63.214798%)<br><em>Total 1 validators</em>');
-marker.uptime = 63.214798; markers.push(marker);
-var marker = L.marker([34.7371, -82.2543], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Simpsonville (1 validators), US<br>NodeID-Cr4g8cLM4Tu4zZdHXMB5jCzeCCrPiNR27 (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
-marker.uptime = 100; markers.push(marker);
+var marker = L.marker([48.8534, 2.3488], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Paris (1 validators), FR<br>NodeID-5XHJ7DsZCCjMic4W98PUjZTwyDZ9i9U5j (Port: 9651, Uptime: 99.92839%)<br><em>Total 1 validators</em>');marker.uptime = 99.92839; markers.push(marker);
+var marker = L.marker([50.9519, 1.8563], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Calais (1 validators), FR<br>NodeID-HQiddbE4RWRTWedj8X6J5N8C8hDhEiKqK (Port: 9651, Uptime: 99.96542%)<br><em>Total 1 validators</em>');
+marker.uptime = 99.96542; markers.push(marker);
+var marker = L.marker([40.6436, 22.9309], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Thessaloníki (1 validators), GR<br>NodeID-4SQdCBcg5Qp2Y5GqG1FDVPpwVsFEVm8Ux (Port: 9651, Uptime: 72.68598%)<br><em>Total 1 validators</em>');
+marker.uptime = 72.68598; markers.push(marker);
+var marker = L.marker([47.6062, -122.3321], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Seattle (1 validators), US<br>NodeID-3izg9WsV5XhwEwE4mA8UijRdfngiizn51 (Port: 9651, Uptime: 23.52623%)<br><em>Total 1 validators</em>');
+marker.uptime = 23.52623; markers.push(marker);
+var marker = L.marker([34.7371, -82.2543], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Simpsonville (1 validators), US<br>NodeID-Cr4g8cLM4Tu4zZdHXMB5jCzeCCrPiNR27 (Port: 9651, Uptime: 72.468994%)<br><em>Total 1 validators</em>');
+marker.uptime = 72.468994; markers.push(marker);
 var marker = L.marker([47.3667, 8.5500], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Zürich (1 validators), CH<br>NodeID-AHmpyoNb8Qehvf4q8F9yXYdzYRzH4SbYZ (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
-var marker = L.marker([48.8534, 2.3488], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Paris (1 validators), FR<br>NodeID-B1DAPJJ98cG2RDgzgEYVuP2XgjmvgqNsk (Port: 9651, Uptime: 99.74346%)<br><em>Total 1 validators</em>');marker.uptime = 99.74346; markers.push(marker);
+var marker = L.marker([48.8534, 2.3488], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Paris (1 validators), FR<br>NodeID-B1DAPJJ98cG2RDgzgEYVuP2XgjmvgqNsk (Port: 9651, Uptime: 99.820786%)<br><em>Total 1 validators</em>');
+marker.uptime = 99.820786; markers.push(marker);
 var marker = L.marker([50.1155, 8.6842], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Frankfurt am Main (1 validators), DE<br>NodeID-NMWuQ1Wu82xTRjtQMFFXU7GJ7kiAwSvGC (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
 var marker = L.marker([51.5085, -0.1257], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>London (1 validators), GB<br>NodeID-MKikhF5TaHRUpQtc1ZmwN4AiquFVHcjZj (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
@@ -125,14 +155,16 @@ var marker = L.marker([51.5085, -0.1257], {icon: greenIcon}).addTo(map).bindPopu
 marker.uptime = 100; markers.push(marker);
 var marker = L.marker([48.8534, 2.3488], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Paris (1 validators), FR<br>NodeID-GKBykzpxeALzYee1fGQjFn6oZiA18W26m (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
-var marker = L.marker([50.1155, 8.6842], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Frankfurt am Main (1 validators), DE<br>NodeID-JQPadXEMWtRtJyXrisyDNWuXKSjSf9D36 (Port: 9651, Uptime: 18.93848%)<br><em>Total 1 validators</em>');
-marker.uptime = 18.93848; markers.push(marker);
 var marker = L.marker([50.1155, 8.6842], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Frankfurt am Main (1 validators), DE<br>NodeID-ErTgGdmXf7Sgo4eBcE1GX6jMkHYbCk5wW (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
 var marker = L.marker([50.1155, 8.6842], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Frankfurt am Main (1 validators), DE<br>NodeID-E7qYUVgiJjAifGdhxcCWTBRTPn9rwKtYe (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
+var marker = L.marker([39.0062, -77.4286], {icon: redIcon}).addTo(map).bindPopup('<strong></strong><br>Sterling (1 validators), US<br>NodeID-sAyLfHTC8ZQRn5HtfjNKxXDbnZTaJUqa (Port: 9651, Uptime: 0%)<br><em>Total 1 validators</em>');
+marker.uptime = 0; markers.push(marker);
 var marker = L.marker([42.7762, -71.0773], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Haverhill (1 validators), US<br>NodeID-NjEZ9612WboYCa2V5UgMXhvniSsXhPukk (Port: 9651, Uptime: 100%)<br><em>Total 1 validators</em>');
 marker.uptime = 100; markers.push(marker);
+var marker = L.marker([48.5839, 7.7455], {icon: greenIcon}).addTo(map).bindPopup('<strong></strong><br>Strasbourg (1 validators), FR<br>NodeID-3VHjukYydRmcFf4Sy33v6P4ZJVwEuq67f (Port: 9651, Uptime: 99.98298%)<br><em>Total 1 validators</em>');
+marker.uptime = 99.98298; markers.push(marker);
 function filterMarkers() {
     var showHighUptime = document.getElementById('uptimeFilter').checked;
     markers.forEach(function(marker) {
@@ -145,17 +177,19 @@ function filterMarkers() {
 }
 </script>
 <div class='info'>
-<h3>Toplam Validator Sayısı: 82</h3>
+<h3>Toplam Validator Sayısı: 120</h3>
 <h3>Ülkelere Göre Validator Sayıları:</h3>
 <ul>
-<li>DE: 18 validator</li>
-<li>FR: 13 validator</li>
+<li>FR: 21 validator</li>
+<li>DE: 20 validator</li>
+<li>US: 8 validator</li>
 <li>CH: 6 validator</li>
-<li>US: 5 validator</li>
 <li>GB: 4 validator</li>
 <li>PL: 2 validator</li>
+<li>HU: 2 validator</li>
+<li>TR: 1 validator</li>
 <li>RU: 1 validator</li>
-<li>HU: 1 validator</li>
+<li>NL: 1 validator</li>
 <li>GR: 1 validator</li>
 <li>FI: 1 validator</li>
 <li>CA: 1 validator</li>
